@@ -200,7 +200,7 @@ class TableApp(MDApp):
             gameButtons2 = gameButtons.replace('REPLACE', buttonText)
             self.gameButton = Builder.load_string(gameButtons2)
             self.gameButton.bind(on_press=self.pressed)
-            self.gameButton.fonty = int((104 - tiles))
+            self.gameButton.fonty = int((67 - tiles))
             gameLayout2.add_widget(self.gameButton)
 
         self.labely = Builder.load_string(updateLabel)
