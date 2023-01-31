@@ -15,6 +15,6 @@ from kivy.properties import NumericProperty
 from kivymd.uix.progressbar import MDProgressBar
 from kivy.clock import Clock
 from kivy.lang import Builder
-from kivymd.uix.behaviors.backgroundcolorbehavior import BackgroundColorBehavior
+# from kivymd.uix.behaviors.backgroundcolorbehavior import BackgroundColorBehavior
 from kivy.core.window import Window
 from kivy.animation import Animation
